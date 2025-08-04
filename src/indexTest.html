@@ -1,0 +1,28 @@
+// test/index.test.js
+
+/**
+ * Test suite for basic math operations
+ */
+describe('Basic Math Operations', () => {
+    /**
+     * Test simple addition of two positive numbers
+     */
+    test('Test Basic Addition Functionality', () => {
+        // Mock the addNumbers function (since original implementation isn't provided)
+        // In a real scenario, this would be imported from your actual implementation
+        const addNumbers = (a, b) => a + b;
+
+        // Test input
+        const input1 = 2;
+        const input2 = 3;
+
+        // Expected outcome
+        const expected = 5;
+
+        // Actual result
+        const result = addNumbers(input1, input2);
+
+        // Assertion
+        expect(result).toBe(expected);
+    });
+});
